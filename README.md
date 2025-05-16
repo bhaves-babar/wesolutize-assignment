@@ -1,12 +1,50 @@
-# React + Vite
+# React Business Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a React-based responsive website designed for a business or service provider. The project uses **Tailwind CSS** for fast and flexible UI styling.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Technologies Used
 
-## Expanding the ESLint configuration
+- **React.js** – For building user interfaces and component-based architecture.
+- **Tailwind CSS** – For modern, utility-first styling.
+- **React Router / Anchor Links** – Used `<Link>` components for smooth in-page and page-to-page navigation.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📄 Pages Included
+
+1. **Home**
+2. **About Us**
+3. **Contact**
+4. **Services**
+5. **Projects**
+
+---
+
+## 📦 Data Management
+
+- The **Services** and **Projects** pages use a **data component** to store relevant information.
+- The data is **mapped dynamically** to render each service/project card on their respective pages, ensuring easy maintenance and scalability.
+
+---
+
+## 🔗 Navigation
+
+- Navigation between sections is implemented using React `<Link>` components for a seamless single-page experience.
+- Anchor links provide smooth scroll behavior between sections of the same or different pages.
+
+---
+
+## 💡 Getting Started
+
+To run this project locally:
+
+```bash
+git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name
+npm install
+npm start
+
+screen shorts of UI:
+https://drive.google.com/drive/folders/1KqVhbSRpcRc5_OlwGAkaJCHWW-YtUuwY?usp=sharing
